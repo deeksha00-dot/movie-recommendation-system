@@ -19,7 +19,7 @@ async function getRecommendations() {
     try {
 
         const url =
-            "https://movie-recommendation-system-5oi4.onrender.com/recommend/" +
+            "https://movie-recommendation-system-backend-nk2r.onrender.com/recommend/" +
             encodeURIComponent(movie);
 
         console.log("Requesting:", url);
