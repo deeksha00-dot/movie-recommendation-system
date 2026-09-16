@@ -60,7 +60,9 @@ async function getRecommendations() {
 
     } catch (error) {
 
-    message.textContent =
-        "Movie not found. Try another movie.";
-}
+        console.error("Error:", error);
+
+        message.textContent =
+            "Movie not found. Try another movie.";
+    }
 }
